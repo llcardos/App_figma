@@ -1,0 +1,108 @@
+:root{
+    --corAzul600: #0033DA;
+    --corText600: #606060;
+    --corVerde400: #53C727;
+    --corFundo: #FFFFFF;
+    --preto10: #00000010;
+    --corBorda: #E8E8E8;
+    --corTexto100:#262626;
+}
+
+html{
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: var(--corFundo);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin: 200px 0px 300px 0px;
+}
+
+.span-text{
+    color: var(--corText600);
+}
+
+.vetor1{
+    position: absolute;
+    width: 441.17px;
+    height: 765.07px;
+    top: 41px;
+    left: -263px;
+    rotate: calc(27.27deg);
+}
+
+.vetor2{
+    position: absolute;
+    width: 677.12px;
+    height: 402.46px;
+    top: -159px;
+    left: -150px;
+    rotate: calc(21.76deg);
+}
+
+.vetor3{
+    position: absolute;
+    width: 785.87px;
+    height: 462.89px;
+    top: 248px;
+    left: -82.94px;
+    rotate: calc(3.83deg);
+}
+
+.frase{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.texto{
+    font-size: 29px;
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+    color: var(--corText600);
+}
+
+.sub-texto{
+    font-size: 13px;
+    color: var(--corText600);
+}
+
+.texto-verde{
+    color: var(--corVerde400);
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    margin-top: 38px;
+}
+
+.btn-login{
+    width: 327px;
+    height: 48px;
+    background-color: var(--corAzul600);
+    color: var(--corFundo);
+    border: none;
+    border-radius: 2222px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-filiar{
+    width: 327px;
+    height: 48px;
+    border: 1px solid var(--corBorda);
+    color: var(--corTexto100);
+    background-color: var(--corFundo);
+    border-radius: 2222px;
+    font-size: 16px;
+    cursor: pointer;
+}
