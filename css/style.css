@@ -28,11 +28,11 @@ body{
 
 .vetor1{
     position: absolute;
-    width: 441.17px;
-    height: 765.07px;
-    top: 41px;
+    width: 1400px;
+    height: 645.07px;
+    top: 148px;
     left: -263px;
-    rotate: calc(27.27deg);
+    rotate: calc(-25deg);
 }
 
 .vetor2{
